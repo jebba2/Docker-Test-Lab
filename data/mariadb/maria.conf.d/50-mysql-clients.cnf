@@ -1,0 +1,31 @@
+#
+# These groups are read by MariaDB command-line tools
+# Use it for options that affect only one utility
+#
+
+[mysql]
+
+## MySQL Client Configuration ##
+ssl-ca=/etc/mysql/certs/ca-cert.pem
+ssl-cert=/etc/mysql/certs/client-cert.pem
+ssl-key=/etc/mysql/certs/client-key.pem
+##  Force TLS version for client too
+#tls_version = TLSv1.2,TLSv1.3
+### This option is disabled by default ###
+### ssl-verify-server-cert ###
+
+[mysql_upgrade]
+
+[mysqladmin]
+
+[mysqlbinlog]
+
+[mysqlcheck]
+
+[mysqldump]
+
+[mysqlimport]
+
+[mysqlshow]
+
+[mysqlslap]
